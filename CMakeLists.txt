@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.30)
+project(PA1)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(PA1 main.cpp
+        lex.cpp
+        lex.h)
